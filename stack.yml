@@ -2,7 +2,7 @@ services:
   doc2md:
     image: felipefontoura/doc2md:latest
     networks:
-      - network_public
+      - default
     environment:
       - OPENAI_API_KEY=sk-xxx
       - LLM_MODEL=gpt-4o-mini
