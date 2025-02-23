@@ -28,6 +28,4 @@ services:
         - traefik.http.services.doc2md.loadbalancer.server.port=5000
         - traefik.http.services.doc2md.loadbalancer.passHostHeader=true
 networks:
-  network_public:
-    name: network_public
-    external: true
+  default:
